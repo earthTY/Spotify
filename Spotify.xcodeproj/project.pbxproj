@@ -28,6 +28,7 @@
 		FA3276F02C2EB5C100A4E7C6 /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3276EF2C2EB5C100A4E7C6 /* AudioTrack.swift */; };
 		FA3276F22C2EB5EB00A4E7C6 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3276F12C2EB5EB00A4E7C6 /* Artist.swift */; };
 		FA3276F42C2EB60C00A4E7C6 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3276F32C2EB60C00A4E7C6 /* UserProfile.swift */; };
+		FA3276F62C32835800A4E7C6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3276F52C32835800A4E7C6 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		FA3276EF2C2EB5C100A4E7C6 /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		FA3276F12C2EB5EB00A4E7C6 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		FA3276F32C2EB60C00A4E7C6 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		FA3276F52C32835800A4E7C6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				FA3276C22C2EA6BE00A4E7C6 /* Assets.xcassets */,
 				FA3276B92C2EA6BC00A4E7C6 /* AppDelegate.swift */,
 				FA3276BB2C2EA6BC00A4E7C6 /* SceneDelegate.swift */,
+				FA3276F52C32835800A4E7C6 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				FA3276E22C2EB43E00A4E7C6 /* ProfileViewController.swift in Sources */,
 				FA3276EC2C2EB56100A4E7C6 /* HapticsManager.swift in Sources */,
 				FA3276EA2C2EB54A00A4E7C6 /* APICaller.swift in Sources */,
+				FA3276F62C32835800A4E7C6 /* Extensions.swift in Sources */,
 				FA3276E82C2EB51500A4E7C6 /* AuthManager.swift in Sources */,
 				FA3276BA2C2EA6BC00A4E7C6 /* AppDelegate.swift in Sources */,
 				FA3276F02C2EB5C100A4E7C6 /* AudioTrack.swift in Sources */,
