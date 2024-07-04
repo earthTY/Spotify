@@ -29,6 +29,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.makeKeyAndVisible()
         self.window = window
         
+//        AuthManager.shared.refreshAccessToken { success in
+//            print(<#T##items: Any...##Any#>)
+//        }
+        
         return true
     }
 
