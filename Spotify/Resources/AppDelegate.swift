@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let window = UIWindow(frame: UIScreen.main.bounds)
         
         if AuthManager.shared.isSignedIn {
+            AuthManager.shared.refreshAccessToken(completion: nil)
             window.rootViewController = TabBarViewController()
         }else {
             let navC = UINavigationController(rootViewController: WelcomeViewController())

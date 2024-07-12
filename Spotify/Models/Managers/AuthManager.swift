@@ -131,13 +131,13 @@ final class AuthManager {
     /**
      刷新token
      */
-    public func refreshAccessToken(completion: @escaping (Bool) -> Void){
+    public func refreshAccessToken(completion: ((Bool) -> Void)?){
         guard !refershingToken else {
             return
         }
         
         guard shouldRefreshToken else {
-            completion(true)
+            completion?(true)
             return
         }
         guard let refreshToken = self.refreshToken else {
@@ -172,7 +172,7 @@ final class AuthManager {
             self?.refershingToken = false
             
             guard let data = data, error == nil else {
-                completion(false)
+                completion?(false)
                 return
             }
             
@@ -187,10 +187,10 @@ final class AuthManager {
                 self?.onRefershBlocks.forEach { $0(result.access_token) }
                 self?.onRefershBlocks.removeAll()
                 self?.catchToken(result: result)
-                completion(true)
+                completion?(true)
             }catch {
                 print(error.localizedDescription)
-                completion(false)
+                completion?(false)
             }
         }
         
